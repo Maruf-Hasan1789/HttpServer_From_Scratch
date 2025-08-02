@@ -1,37 +1,15 @@
 [![progress-banner](https://backend.codecrafters.io/progress/http-server/7ebcd0ac-3891-4cc2-a595-09128f50ad95)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
 
-This is a starting point for Go solutions to the
-["Build Your Own HTTP server" Challenge](https://app.codecrafters.io/courses/http-server/overview).
+# HTTP Server in Go
 
-[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) is the
-protocol that powers the web. In this challenge, you'll build a HTTP/1.1 server
-that is capable of serving multiple clients.
+This repository contains my solution to the [Codecrafters "Build Your Own HTTP Server" Challenge](https://app.codecrafters.io/courses/http-server/overview).
 
-Along the way you'll learn about TCP servers,
-[HTTP request syntax](https://www.w3.org/Protocols/rfc2616/rfc2616-sec5.html),
-and more.
+I implemented a basic HTTP server from scratch in Go, focusing on understanding the inner workings of the HTTP protocol. Throughout the project, I gained hands-on experience with:
 
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to try the challenge.
+- Parsing HTTP requests
+- Crafting appropriate HTTP responses
+- Managing sockets and connections
+- Handling different HTTP methods and status codes
 
-# Passing the first stage
+This project was a valuable learning experience and deepened my understanding of how web servers operate under the hood.
 
-The entry point for your HTTP server implementation is in `app/main.go`. Study
-and uncomment the relevant code, and push your changes to pass the first stage:
-
-```sh
-git commit -am "pass 1st stage" # any msg
-git push origin master
-```
-
-Time to move on to the next stage!
-
-# Stage 2 & beyond
-
-Note: This section is for stages 2 and beyond.
-
-1. Ensure you have `go (1.24)` installed locally
-1. Run `./your_program.sh` to run your program, which is implemented in
-   `app/main.go`.
-1. Commit your changes and run `git push origin master` to submit your solution
-   to CodeCrafters. Test output will be streamed to your terminal.
